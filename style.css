@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 99%;
+    background-color: rgb(213, 231, 255);
+}
+
+* {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: auto;
+
+}
+
+.navig {
+    font-size: 30px;
+
+}
+
+.nvg td {
+    padding: 10px;
+}
+
+div.header {
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.text1 {
+    padding: 15px;
+    max-width: 950px;
+    font-size: 33px;
+}
+
+.text2 {
+    padding: 15px;
+    max-width: 950px;
+    font-size: 25px;
+
+}
+
+.bilde1 {
+    width: 900px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+td.text2 {
+    vertical-align: text-top;
+}
+
+.button {
+    background: rgb(100, 185, 255);
+    padding: 10px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    transition: 0.15s;
+    border: black 2px solid;
+}
+
+.button:hover {
+    background: rgb(0, 140, 255);
+}
+button{
+    width: 320px;
+    height: 200px;
+    background-color: rgb(100, 185, 255);
+    border: black solid 2px;
+    border-radius: 15px;
+    transition: 0.15s;
+}
+button:hover{
+    background-color: black;
+    color: red;
+}
+.lilrakst{
+    font-size: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
